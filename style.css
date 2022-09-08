@@ -1,0 +1,116 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family:'Roboto', sans-serif;
+}
+body{
+    background-image:url(./images/Background.png) ;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.page{
+    display: flex;
+    border-radius: 8px;
+    width: 60%;
+    border:2px solid  rgb(9, 9, 37);
+    margin-left: 90px;
+}
+.left{
+    width: 50%;
+    background-color: rgb(9, 9, 37);
+    padding: 0px 40px;
+}
+.left h2{
+    color: white;
+    text-align: center;
+    margin-bottom: 10px;
+    margin-top: 20px;
+}
+
+.left p{
+    color: white;
+    text-align: center;
+}
+.left img{
+    width: 100%;
+    margin-top: -80px;
+}
+.right{
+    width: 50%;
+    background-color: white;
+    padding: 0px 30px ;
+}
+.right h2{
+    margin-bottom: 35px;
+    margin-top: 25px;
+}
+#demo,
+#pass {
+  font-family: bold;
+  color: red;
+  text-align: right;
+}
+form .email input{
+    padding: 10px;
+    margin-bottom: 10px; 
+    width: 90%;
+    box-sizing: border-box;
+     margin-top: 4px; 
+}
+form a{
+    color: rgb(9, 9, 37);
+    font-weight: bold;
+}
+form button input {
+    padding: 10px;
+    width: 90%;
+    box-sizing: border-box;
+    background-color: rgb(9, 9, 37);
+    color: white;
+    margin-top: 15px;
+}
+@media screen and (max-width: 1000px){
+    body{
+        background-image:none;
+        padding: 0px 0px;
+        /* height: auto; */
+    }
+    .page{
+        display: block;
+        width: 100%;
+        border:none;
+        border-radius: none;
+        margin-left: 0px;
+    }
+    .left{
+        width: 100%;
+        padding: 0px 0px;
+        margin-top: -40px;
+        /* height: 56vh; */
+    }
+    .left h2{
+        padding-top: 60px;
+    }
+    .left img{
+        margin-top: -140px;
+    }
+    .right{
+        width: 100%;
+        padding: 0px 30px;
+    }
+    .right h2{
+        margin-bottom: 18px;
+    }
+    form .email input{
+    width: 75%;
+    }
+    form .button input{ 
+    width: 75%;
+    margin-bottom: 40px;
+    }
+    }
